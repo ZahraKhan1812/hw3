@@ -32,10 +32,15 @@ const SignUp = (props) => {
             <h1>Sign Up!</h1>
      
         <form onSubmit={validatePasswords} className="sign-up">
-           
-            <input type = "text" />
-            <input type = "password" onChange={changePassword} value={password}/>
-            <input type = "password" onChange={changeConfirmPassword} value={confirmPassword}/>
+
+            <label htmlFor="name">Name:</label>
+            <input type = "text" name = "name" />
+            <label htmlFor="password">Password:</label>
+            <input type = "password" onChange={changePassword} value={password} 
+            Password = "password"/>
+            <label htmlFor="confirmPassword">ConfirmPassword:</label>
+            <input type = "password" onChange={changeConfirmPassword} value={confirmPassword}
+            ConfirmPassword="confirmPassword"/>
             <input type = "submit" />
         </form>
     </div>
