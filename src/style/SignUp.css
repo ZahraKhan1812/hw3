@@ -1,4 +1,6 @@
 .sign-up{
     display: flex;
     flex-direction: column;
+    text-align: left;
+    background-color: rgb(181, 207, 216);
 }

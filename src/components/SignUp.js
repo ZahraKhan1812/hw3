@@ -33,7 +33,7 @@ const SignUp = (props) => {
      
         <form onSubmit={validatePasswords} className="sign-up">
 
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Name: </label>
             <input type = "text" name = "name" />
             <label htmlFor="password">Password:</label>
             <input type = "password" onChange={changePassword} value={password} 
